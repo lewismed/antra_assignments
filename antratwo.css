@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.unorderedlist{
+    display: flex;
+    color:white;
+    background-color: black
+}
+.bottomlist{display: flex;
+color: white;
+position: fixed;
+bottom: 0;
+width:100em ;
+background-color:green;}
+     
+.bottomone{
+        display:flex;
+        position: fixed;
+        left: 40px; 
+
+        
+    }
+    
+.bottomtwo{display:flex ;
+position: relative;
+left:70em ;
+
+}
+.mid_text{display: flex;
+   flex-wrap: nowrap;
+position: relative;
+left: 1em;}
+
+.middle{background-color:#c6bfbf;
+height: 5em;}
+
