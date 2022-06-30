@@ -87,7 +87,10 @@ padding: 0
 .title{margin-left:3%}
 
 
-/*@media (max-width: 600px) {
-    body {font-size: 60%;
-*/
+@media (max-width: 600px) {
+    body {font-size: 65%;
+    }
+
+
+}
 
