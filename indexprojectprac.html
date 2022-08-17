@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="scriptprac.js"></script>
+  </head>
+  <body>
+    <div class="margin20 textCenter flexCenter fs20">Phone Directory</div>
+    <div class="textCenter flexCenter">
+      <div class="marginTB40 fb">
+        <div>
+         <form id="form_user" action="#" method="post">
+          <input type="text" id="input-name" value="" placeholder="Contact Name" />
+          <input
+            type="number"
+            maxlength="10"
+            id="input-mobile"
+            value=""
+            placeholder="Mobile Number"
+          />
+          <input type="email" id="input-email" value="" placeholder="Email" />
+          <input
+            type="submit"
+            class="btn"
+            id="submit"
+            value="Add Contact"
+          />
+          <div id="error" class="dn error padT10 textCenter">Invalid Input</div>
+        </form>
+        </div>
+      </div>
+      <div class="marginT40">
+        <span>Search contact by Mobile No:</span>
+        <input type="text" id="search" value="" />
+      </div>
+      <div class="marginT40 padL10 tab cursorPtr" id="contactsSummary">
+        Contacts Summary
+      </div>
+      <div id="contactSummary" class="contactSummary">
+        <table id="summaryTable">
+          <thead>
+
+            <tr>
+              <th id="nameColumn" style="cursor: pointer">Name</th>
+              <th>Mobile</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody id="contact_table">
+            <tr>
+              <td>admin</td>
+              <td>1234567890</td>
+              <td>test@test</td>
+            </tr>
+          </tbody>
+        </table>
+        <div id="noResult" class="noResult dn">No Results Found</div>
+      </div>
+    </div>
+  </body>
+</html>
